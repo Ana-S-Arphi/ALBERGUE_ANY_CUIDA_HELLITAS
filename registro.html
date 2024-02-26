@@ -1,0 +1,35 @@
+﻿
+<html>
+
+<a href="index.html"> </a>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario Simple</title>
+</head>
+<body>
+    <h2>Formulario de Contacto</h2>
+
+
+<h3> <p align="center"> Ccontamos con jornadas de adopción en la Plaza 15 de Agosto con un previo 
+anuncio mediante nuestras redes sociales y en nuestro sitio web sólo tienes que llenar el formulario y 
+nos contactaremos contigo para coordinar todos los detalles, preguntar sobre ellos y adoptar un amigo. </p> </h3>
+
+<br>
+<br>
+
+
+    <form action="/enviar.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
